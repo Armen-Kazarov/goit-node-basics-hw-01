@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Armen-Kazarov/goit-node-basics-hw-01.git"
-  },
-  "author": "Armen Kazarov",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Armen-Kazarov/goit-node-basics-hw-01/issues"
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "nodemon": "^2.0.7"
   },
-  "homepage": "https://github.com/Armen-Kazarov/goit-node-basics-hw-01#readme"
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
 }
